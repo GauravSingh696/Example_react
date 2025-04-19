@@ -30,7 +30,6 @@ const App = () => {
         }
       });
       
-      console.log(res);
       const data = res.data.candidates[0].content.parts[0].text;
       SetAns(data);
     } catch (error) {
