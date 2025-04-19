@@ -33,7 +33,7 @@ const App = () => {
       const data = res.data.candidates[0].content.parts[0].text;
       SetAns(data);
     } catch (error) {
-      SetAns('❌ gaurav singh Error from the server side...');
+      SetAns('❌ Error from the server side...');
     }
   };
 
